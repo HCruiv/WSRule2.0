@@ -12,13 +12,13 @@
     <title>WS RUle - Dashboard</title>
 
     <!-- Custom fonts for this template-->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="../css/sb-admin-2.min.css" rel="stylesheet">
 
 </head>
 
@@ -31,7 +31,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="admin.html">
                 
                 <!--
                 <div class="sidebar-brand-icon rotate-n-15">
@@ -46,8 +46,8 @@
             <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">
+            <li class="nav-item">
+                <a class="nav-link" href="admin.html">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
@@ -61,17 +61,17 @@
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#perubahanSchedule"
+            <li class="nav-item active">
+                <a class="nav-link" href="#" data-toggle="collapse" data-target="#perubahanSchedule"
                     aria-expanded="true" aria-controls="perubahanSchedule">
                     <i class="fas fa-fw fa-cog"></i>
                     <span>Perubahan Schedule</span>
                 </a>
-                <div id="perubahanSchedule" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div id="perubahanSchedule" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Perubahan Schedule:</h6>
-                        <a class="collapse-item" href="buttons.html">Create Schedule</a>
-                        <a class="collapse-item" href="tables.html">History Pengajuan</a>
+                        <a class="collapse-item active" href="create.html">Create Schedule</a>
+                        <a class="collapse-item" href="history-pengajuan.html">History Pengajuan</a>
                     </div>
                 </div>
             </li>
@@ -86,122 +86,13 @@
                 <div id="masterPekerja_A" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Master Pekerja:</h6>
-                        <a class="collapse-item" href="buttons.html">Schedule Pekerja</a>
+                        <a class="collapse-item" href="schedule-pekerja.html">Schedule Pekerja</a>
                         
                     </div>
                 </div>
             </li>
 
-            <!-- Divider -->
-            <hr class="sidebar-divider">
-
-            <!-- Heading -->
-            <div class="sidebar-heading">
-                Atasan
-            </div>
-
-            <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#perubahanSchedule_At"
-                    aria-expanded="true" aria-controls="perubahanSchedule_At">
-                    <i class="fas fa-fw fa-folder"></i>
-                    <span>Perubahan Schedule</span>
-                </a>
-                <div id="perubahanSchedule_At" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Perubahan Schedule:</h6>
-                        <a class="collapse-item" href="login.html">Review</a>
-                        <a class="collapse-item" href="tables.html">History</a>
-                    </div>
-                </div>
-            </li>
-
-            <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#masterPekerja_At"
-                    aria-expanded="true" aria-controls="masterPekerja_At">
-                    <i class="fas fa-fw fa-cog"></i>
-                    <span>Master Pekerja</span>
-                </a>
-                <div id="masterPekerja_At" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Master Pekerja:</h6>
-                        <a class="collapse-item" href="buttons.html">Schedule Pekerja</a>
-                        
-                    </div>
-                </div>
-            </li>
-
-            <!-- Divider -->
-            <hr class="sidebar-divider d-none d-md-block">
-
-
-            <!-- Heading HC-->
-            <div class="sidebar-heading">
-                Human Capital
-            </div>
-
-            <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#perubahanSchedule_hc"
-                    aria-expanded="true" aria-controls="perubahanSchedule_hc">
-                    <i class="fas fa-fw fa-folder"></i>
-                    <span>Perubahan Schedule</span>
-                </a>
-                <div id="perubahanSchedule_hc" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Action 1:</h6>
-                        <a class="collapse-item" href="login.html">Create</a>
-                        <a class="collapse-item" href="register.html">Review</a>
-                        <div class="collapse-divider"></div>
-                        <h6 class="collapse-header">HC Action:</h6>
-                        <a class="collapse-item" href="404.html">Laporan Perubahan Schedule</a>
-                        <a class="collapse-item" href="tables.html">History</a>
-                    </div>
-                </div>
-            </li>
-
-            <!-- Single 
-            <li class="nav-item">
-                <a class="nav-link" href="charts.html">
-                    <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Charts</span></a>
-            </li>
-            -->
-
-            <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#masterPekerja_hc"
-                    aria-expanded="true" aria-controls="masterPekerja_hc">
-                    <i class="fas fa-fw fa-folder"></i>
-                    <span>Master Pekerja</span>
-                </a>
-                <div id="masterPekerja_hc" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Master Pekerja</h6>
-                        <a class="collapse-item" href="login.html">List Pekerja</a>
-                        <a class="collapse-item" href="register.html">Schedule Pekerja</a>
-                    </div>
-                </div>
-            </li>
-
-            <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#masterUmum"
-                    aria-expanded="true" aria-controls="masterUmum">
-                    <i class="fas fa-fw fa-folder"></i>
-                    <span>Master Umum</span>
-                </a>
-                <div id="masterUmum" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Master Umum</h6>
-                        <a class="collapse-item" href="login.html">Function</a>
-                        <a class="collapse-item" href="register.html">List Admin Bagian</a>
-                        <a class="collapse-item" href="register.html">Shift Code</a>
-                        <a class="collapse-item" href="register.html">Calendar</a>
-                    </div>
-                </div>
-            </li>
+            
 
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
@@ -226,9 +117,11 @@
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
                     <!-- Sidebar Toggle (Topbar) -->
-                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-                        <i class="fa fa-bars"></i>
-                    </button>
+                    <form class="form-inline">
+                        <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </form>
 
                     <!-- Topbar Search -->
                     <form
@@ -394,7 +287,7 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Redy Erdiyanto</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
                                 <img class="img-profile rounded-circle"
                                     src="img/undraw_profile.svg">
                             </a>
