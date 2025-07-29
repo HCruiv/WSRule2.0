@@ -20,6 +20,8 @@
     <!-- Custom styles for this template-->
     <link href="../css/sb-admin-2.min.css" rel="stylesheet">
 
+
+
 </head>
 
 <body id="page-top">
@@ -329,8 +331,46 @@
                     <div class="card shadow mb-4">
                         
                         <div class="card-body">
+
+                            
+                            <!-- FILTER -->
+                            <div class="row mb-3">
+                                <div class="col-md-3">
+                                    <label for="filterFungsi">Cari berdasarkan Nama</label>
+                                    <input type="text" id="searchBox" class="form-control" placeholder="Cari nama pekerja...">
+                                </div>
+
+                                <div class="col-md-3">
+                                    <label for="filterFungsi">Filter Fungsi</label>
+                                    <select id="filterFungsi" class="form-control">
+                                    <option value="">Semua Fungsi</option>
+                                    <option value="Fungsi Apa">Fungsi Apa</option>
+                                    <option value="Operasional">Operasional</option>
+                                    <!-- Tambahkan opsi lain jika perlu -->
+                                    </select>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <label for="filterShift">Filter Shift</label>
+                                    <select id="filterShift" class="form-control">
+                                    <option value="">Semua Shift</option>
+                                    <option value="Harian">Harian</option>
+                                    <option value="Shift A">Shift A</option>
+                                    <option value="Shift B">Shift B</option>
+                                    <option value="Shift C">Shift C</option>
+                                    <option value="Shift D">Shift D</option>
+                                    <!-- Tambahkan opsi lain jika perlu -->
+                                    </select>
+                                </div>
+                                </div>
+                            <!--END FILTER-->
+
+
+                            
+
                             <div class="table-responsive">
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                    
                                     <thead>
                                         <tr>
                                             <th>No</th>
@@ -362,6 +402,8 @@
                                     </tbody>
 
                                 </table>
+
+
                             </div>
                         </div>
                     </div>
