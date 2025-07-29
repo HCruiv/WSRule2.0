@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Daftar akun simulasi
         const users = [
-            { email: "admin=", password: "admin123", role: "admin", redirect: "admin/admin.html" },
+            { email: "admin", password: "admin123", role: "admin", redirect: "admin/admin.html" },
             { email: "hc", password: "hc123", role: "hc", redirect: "hc/hc.html" },
             { email: "atasan", password: "atasan123", role: "atasan", redirect: "atasan/atasan.html" }
         ];
