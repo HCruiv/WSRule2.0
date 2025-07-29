@@ -31,7 +31,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="admin.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="hc.html">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-clipboard-list"></i>
                 </div>
@@ -42,8 +42,8 @@
             <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item active">
-                <a class="nav-link" href="admin.html">
+            <li class="nav-item">
+                <a class="nav-link" href="hc.html">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
@@ -53,21 +53,23 @@
 
             <!-- Heading -->
             <div class="sidebar-heading">
-                Admin Bagian
+                Human Capital
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+            <li class="nav-item active">
+                <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fas fa-fw fa-calendar-alt"></i>
                     <span>Perubahan Schedule</span>
                 </a>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         
                         <a class="collapse-item" href="create.html">Create Schedule</a>
+                        <a class="collapse-item" href="review.html">Review Perubahan</a>
                         <a class="collapse-item" href="history.html">History Perubahan</a>
+                        <a class="collapse-item active" href="lap_bulanan.html">Laporan Perubahan</a>
                     </div>
                 </div>
             </li>
@@ -84,10 +86,17 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         
                         <a class="collapse-item" href="schedule.html">Schedule Pekerja</a>
+                        <a class="collapse-item" href="admin_bagian.html">Admin Bagian Pekerja</a>
+                        <a class="collapse-item" href="function.html">Function</a>
+                        <a class="collapse-item" href="ws_code.html">Shift Code</a>
+                        <a class="collapse-item" href="log_activity.html">Log Activity</a>
+
 
                     </div>
                 </div>
             </li>
+
+            
 
             
 
@@ -282,7 +291,7 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Rudhi Nurhandoyo</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Redy Erdiyanto</span>
                                 <img class="img-profile rounded-circle"
                                     src="../img/undraw_profile.svg">
                             </a>
