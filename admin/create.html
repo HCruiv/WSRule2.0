@@ -215,7 +215,7 @@
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+        <div class="modal-body">Tekan 'Keluar' jika Anda ingin mengakhiri sesi ini.</div>
         <div class="modal-footer">
           <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
           <a class="btn btn-primary" href="../login.html">Logout</a>
@@ -239,9 +239,9 @@
     $(document).ready(function () {
       $('#nama').select2({ placeholder: 'Ketik nama...', allowClear: true });
       const dataPekerja = [
-        { id: '123', text: 'Budi Santoso', nopek: '123', shift: 'A' },
-        { id: '456', text: 'Siti Aminah', nopek: '456', shift: 'B' },
-        { id: '789', text: 'Ahmad Faisal', nopek: '789', shift: 'C' },
+        { id: '123', text: 'Sulis Tiana', nopek: '161460', shift: 'Harian' },
+        { id: '456', text: 'Annisa Herta S. D.', nopek: '161461', shift: 'Shift A' },
+        { id: '789', text: 'Lia Yuliana', nopek: '161462', shift: 'Shift B' },
       ];
       dataPekerja.forEach(p => {
         $('#nama').append(`<option value="${p.nopek}" data-shift="${p.shift}">${p.text}</option>`);
