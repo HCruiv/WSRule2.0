@@ -14,9 +14,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Daftar akun simulasi
         const users = [
-            { email: "admin", password: "admin123", role: "admin", redirect: "admin/admin.html" },
-            { email: "hc", password: "hc123", role: "hc", redirect: "hc/hc.html" },
-            { email: "atasan", password: "atasan123", role: "atasan", redirect: "atasan/atasan.html" }
+            { email: "admin@pertamina.com", password: "admin123", role: "admin", redirect: "admin/admin.html" },
+            { email: "hc@pertamina.com", password: "hc123", role: "hc", redirect: "hc/hc.html" },
+            { email: "atasan@pertamina.com", password: "atasan123", role: "atasan", redirect: "atasan/atasan.html" }
         ];
 
         // Cek apakah email & password cocok persis
