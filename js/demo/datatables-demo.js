@@ -14,6 +14,12 @@ $(document).ready(function () {
     table.column(3).search(value).draw(); // Kolom 4 (index 3)
   });
 
+  // Filter Bagian
+  $('#filterBagian').on('change', function () {
+    const value = $(this).val();
+    table.column(3).search(value).draw(); // Kolom 4 (index 3)
+  });
+
   // Filter Shift
   $('#filterShift').on('change', function () {
     const value = $(this).val();

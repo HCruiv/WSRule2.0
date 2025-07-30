@@ -1,9 +1,11 @@
 const dataPekerja = [
   {
     no: '001',
-    nama: 'Sulis Tiana',
+    nama: 'Lia Yuliana',
     nopek: '161460',
-    shift: 'Harian',
+    fungsi: 'Human Capital',
+    bagian: 'Workforce Services',
+    shift_baru: 'Shift A',
     tmt: '1.09.2025',
     endDate: '31.12.9999',
     date: '25.07.2025',
@@ -11,9 +13,11 @@ const dataPekerja = [
   },
   {
     no: '002',
-    nama: 'Budi Santoso',
+    nama: 'Annisa Herta',
     nopek: '161461',
-    shift: 'Shift A',
+    fungsi: 'Human Capital',
+    bagian: 'Workforce Services',
+    shift_baru: 'Shift A',
     tmt: '1.10.2025',
     endDate: '31.12.9999',
     date: '26.07.2025',
@@ -21,9 +25,11 @@ const dataPekerja = [
   },
   {
     no: '003',
-    nama: 'Rina Ayu',
+    nama: 'Yahya Djari',
     nopek: '161462',
-    shift: 'Shift B',
+    fungsi: 'Human Capital',
+    bagian: 'Workforce Services',
+    shift_baru: 'Shift B',
     tmt: '1.11.2025',
     endDate: '31.12.9999',
     date: '27.07.2025',
@@ -56,7 +62,9 @@ dataPekerja.forEach(pekerja => {
     <td>${pekerja.no}</td>
     <td>${pekerja.nama}</td>
     <td>${pekerja.nopek}</td>
-    <td>${pekerja.shift}</td>
+    <td>${pekerja.fungsi}</td>
+    <td>${pekerja.bagian}</td>
+    <td>${pekerja.shift_baru}</td>
     <td>${pekerja.tmt}</td>
     <td>${pekerja.endDate}</td>
     <td>${pekerja.date}</td>

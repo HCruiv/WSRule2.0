@@ -1,10 +1,10 @@
 const dataPekerja = [
   {
     no: '001',
-    nama: 'Sulis Tiana',
+    nama: 'Lia Yuliana',
     nopek: '161460',
-    fungsi: 'Fungsi Apa',
-    bagian: 'Bagian Apa',
+    fungsi: 'Human Capital',
+    bagian: 'Workforce Services',
     shift: 'Harian',
     code: 'Code shift'
   },
